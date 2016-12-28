@@ -1,0 +1,1201 @@
+BCSymbolMap Version: 2.0
+-[FSCalendar initWithFrame:]
+-[FSCalendar initWithCoder:]
+-[FSCalendar initialize]
+-[FSCalendar dealloc]
+-[FSCalendar setBounds:]
+-[FSCalendar setFrame:]
+-[FSCalendar setValue:forUndefinedKey:]
+-[FSCalendar layoutSubviews]
+-[FSCalendar sizeThatFits:]
+-[FSCalendar sizeThatFits:scope:]
+-[FSCalendar numberOfSectionsInCollectionView:]
+-[FSCalendar collectionView:numberOfItemsInSection:]
+-[FSCalendar collectionView:cellForItemAtIndexPath:]
+-[FSCalendar collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
+___75-[FSCalendar collectionView:viewForSupplementaryElementOfKind:atIndexPath:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[FSCalendar collectionView:shouldSelectItemAtIndexPath:]
+-[FSCalendar collectionView:didSelectItemAtIndexPath:]
+-[FSCalendar collectionView:shouldDeselectItemAtIndexPath:]
+-[FSCalendar collectionView:didDeselectItemAtIndexPath:]
+-[FSCalendar collectionView:willDisplayCell:forItemAtIndexPath:]
+-[FSCalendar collectionView:willDisplaySupplementaryView:forElementKind:atIndexPath:]
+-[FSCalendar scrollViewDidScroll:]
+___34-[FSCalendar scrollViewDidScroll:]_block_invoke
+-[FSCalendar scrollViewWillEndDragging:withVelocity:targetContentOffset:]
+___73-[FSCalendar scrollViewWillEndDragging:withVelocity:targetContentOffset:]_block_invoke
+___copy_helper_block_.382
+___destroy_helper_block_.383
+-[FSCalendar scrollViewDidEndDecelerating:]
+___43-[FSCalendar scrollViewDidEndDecelerating:]_block_invoke
+___copy_helper_block_.386
+___destroy_helper_block_.387
+-[FSCalendar gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[FSCalendar orientationDidChange:]
+-[FSCalendar setScrollDirection:]
+-[FSCalendar setScope:]
+-[FSCalendar setFirstWeekday:]
+-[FSCalendar setToday:]
+_FSCalendarAssertDateInBounds
+-[FSCalendar setCurrentPage:]
+-[FSCalendar setCurrentPage:animated:]
+-[FSCalendar registerClass:forCellReuseIdentifier:]
+-[FSCalendar dequeueReusableCellWithIdentifier:forDate:atMonthPosition:]
+-[FSCalendar cellForDate:atMonthPosition:]
+-[FSCalendar dateForCell:]
+-[FSCalendar monthPositionForCell:]
+-[FSCalendar visibleCells]
+-[FSCalendar frameForDate:]
+-[FSCalendar setHeaderHeight:]
+-[FSCalendar setWeekdayHeight:]
+-[FSCalendar setLocale:]
+-[FSCalendar setAllowsMultipleSelection:]
+-[FSCalendar allowsMultipleSelection]
+-[FSCalendar setAllowsSelection:]
+-[FSCalendar allowsSelection]
+-[FSCalendar setPagingEnabled:]
+-[FSCalendar setScrollEnabled:]
+-[FSCalendar setOrientation:]
+-[FSCalendar selectedDate]
+-[FSCalendar selectedDates]
+-[FSCalendar preferredHeaderHeight]
+-[FSCalendar preferredWeekdayHeight]
+-[FSCalendar preferredRowHeight]
+-[FSCalendar preferredPadding]
+-[FSCalendar delegateAppearance]
+-[FSCalendar floatingMode]
+-[FSCalendar setShowsScopeHandle:]
+-[FSCalendar scopeGesture]
+-[FSCalendar swipeToChooseGesture]
+-[FSCalendar reloadData]
+-[FSCalendar setScope:animated:]
+-[FSCalendar setPlaceholderType:]
+-[FSCalendar setLineHeightMultiplier:]
+-[FSCalendar selectDate:]
+-[FSCalendar selectDate:scrollToDate:]
+-[FSCalendar deselectDate:]
+-[FSCalendar selectDate:scrollToDate:atMonthPosition:]
+-[FSCalendar scrollToDate:]
+-[FSCalendar scrollToDate:animated:]
+-[FSCalendar scrollToPageForDate:animated:]
+-[FSCalendar isDateInRange:]
+-[FSCalendar isPageInRange:]
+-[FSCalendar isDateSelected:]
+-[FSCalendar isDateInDifferentPage:]
+-[FSCalendar hasValidateVisibleLayout]
+-[FSCalendar invalidateDateTools]
+-[FSCalendar invalidateLayout]
+-[FSCalendar invalidateWeekdaySymbols]
+-[FSCalendar invalidateHeaders]
+-[FSCalendar invalidateAppearanceForCell:forDate:]
+-[FSCalendar reloadDataForCell:atIndexPath:]
+-[FSCalendar reloadVisibleCells]
+___32-[FSCalendar reloadVisibleCells]_block_invoke
+___copy_helper_block_.755
+___destroy_helper_block_.756
+-[FSCalendar handleSwipeToChoose:]
+-[FSCalendar selectCounterpartDate:]
+-[FSCalendar deselectCounterpartDate:]
+-[FSCalendar enqueueSelectedDate:]
+-[FSCalendar visibleStickyHeaders]
+-[FSCalendar invalidateWeekdayFont]
+-[FSCalendar invalidateWeekdayTextColor]
+-[FSCalendar invalidateViewFrames]
+-[FSCalendar currentCalendarOrientation]
+-[FSCalendar requestBoundingDatesIfNecessary]
+-[FSCalendar scrollDirection]
+-[FSCalendar firstWeekday]
+-[FSCalendar appearance]
+-[FSCalendar delegate]
+-[FSCalendar setDelegate:]
+-[FSCalendar dataSource]
+-[FSCalendar setDataSource:]
+-[FSCalendar today]
+-[FSCalendar currentPage]
+-[FSCalendar locale]
+-[FSCalendar scope]
+-[FSCalendar placeholderType]
+-[FSCalendar headerHeight]
+-[FSCalendar weekdayHeight]
+-[FSCalendar calendarWeekdayView]
+-[FSCalendar setCalendarWeekdayView:]
+-[FSCalendar calendarHeaderView]
+-[FSCalendar setCalendarHeaderView:]
+-[FSCalendar pagingEnabled]
+-[FSCalendar scrollEnabled]
+-[FSCalendar showsScopeHandle]
+-[FSCalendar lineHeightMultiplier]
+-[FSCalendar minimumDate]
+-[FSCalendar maximumDate]
+-[FSCalendar stickyHeaderMapTable]
+-[FSCalendar setStickyHeaderMapTable:]
+-[FSCalendar gregorian]
+-[FSCalendar setGregorian:]
+-[FSCalendar formatter]
+-[FSCalendar setFormatter:]
+-[FSCalendar components]
+-[FSCalendar setComponents:]
+-[FSCalendar timeZone]
+-[FSCalendar setTimeZone:]
+-[FSCalendar contentView]
+-[FSCalendar setContentView:]
+-[FSCalendar daysContainer]
+-[FSCalendar setDaysContainer:]
+-[FSCalendar topBorder]
+-[FSCalendar setTopBorder:]
+-[FSCalendar bottomBorder]
+-[FSCalendar setBottomBorder:]
+-[FSCalendar scopeHandle]
+-[FSCalendar setScopeHandle:]
+-[FSCalendar collectionView]
+-[FSCalendar setCollectionView:]
+-[FSCalendar collectionViewLayout]
+-[FSCalendar setCollectionViewLayout:]
+-[FSCalendar animator]
+-[FSCalendar setAnimator:]
+-[FSCalendar proxy]
+-[FSCalendar setProxy:]
+-[FSCalendar calculator]
+-[FSCalendar setCalculator:]
+-[FSCalendar deliver]
+-[FSCalendar setDeliver:]
+-[FSCalendar needsAdjustingMonthPosition]
+-[FSCalendar setNeedsAdjustingMonthPosition:]
+-[FSCalendar needsAdjustingViewFrame]
+-[FSCalendar setNeedsAdjustingViewFrame:]
+-[FSCalendar needsAdjustingTextSize]
+-[FSCalendar setNeedsAdjustingTextSize:]
+-[FSCalendar needsLayoutForWeekMode]
+-[FSCalendar setNeedsLayoutForWeekMode:]
+-[FSCalendar needsRequestingBoundingDates]
+-[FSCalendar setNeedsRequestingBoundingDates:]
+-[FSCalendar supressEvent]
+-[FSCalendar setSupressEvent:]
+-[FSCalendar setPreferredHeaderHeight:]
+-[FSCalendar setPreferredWeekdayHeight:]
+-[FSCalendar setPreferredRowHeight:]
+-[FSCalendar setPreferredPadding:]
+-[FSCalendar orientation]
+-[FSCalendar lastPressedIndexPath]
+-[FSCalendar setLastPressedIndexPath:]
+-[FSCalendar .cxx_destruct]
+_OBJC_IVAR_$_FSCalendar._appearance
+_OBJC_IVAR_$_FSCalendar._gregorian
+_OBJC_IVAR_$_FSCalendar._components
+_OBJC_IVAR_$_FSCalendar._formatter
+_OBJC_IVAR_$_FSCalendar._locale
+_OBJC_IVAR_$_FSCalendar._timeZone
+_OBJC_IVAR_$_FSCalendar._firstWeekday
+_OBJC_IVAR_$_FSCalendar._today
+_OBJC_IVAR_$_FSCalendar._currentPage
+_OBJC_IVAR_$_FSCalendar._minimumDate
+_OBJC_IVAR_$_FSCalendar._maximumDate
+_OBJC_IVAR_$_FSCalendar._headerHeight
+_OBJC_IVAR_$_FSCalendar._weekdayHeight
+_OBJC_IVAR_$_FSCalendar._preferredHeaderHeight
+_OBJC_IVAR_$_FSCalendar._preferredWeekdayHeight
+_OBJC_IVAR_$_FSCalendar._preferredRowHeight
+_OBJC_IVAR_$_FSCalendar._preferredPadding
+_OBJC_IVAR_$_FSCalendar._lineHeightMultiplier
+_OBJC_IVAR_$_FSCalendar._scrollDirection
+_OBJC_IVAR_$_FSCalendar._scope
+_OBJC_IVAR_$_FSCalendar._selectedDates
+_OBJC_IVAR_$_FSCalendar._pagingEnabled
+_OBJC_IVAR_$_FSCalendar._scrollEnabled
+_OBJC_IVAR_$_FSCalendar._needsAdjustingViewFrame
+_OBJC_IVAR_$_FSCalendar._needsAdjustingTextSize
+_OBJC_IVAR_$_FSCalendar._needsAdjustingMonthPosition
+_OBJC_IVAR_$_FSCalendar._needsRequestingBoundingDates
+_OBJC_IVAR_$_FSCalendar._stickyHeaderMapTable
+_OBJC_IVAR_$_FSCalendar._orientation
+_OBJC_IVAR_$_FSCalendar._placeholderType
+_OBJC_IVAR_$_FSCalendar._collectionView
+_OBJC_IVAR_$_FSCalendar._supressEvent
+_OBJC_IVAR_$_FSCalendar._animator
+_OBJC_IVAR_$_FSCalendar._scopeHandle
+_OBJC_IVAR_$_FSCalendar._contentView
+_OBJC_IVAR_$_FSCalendar._needsLayoutForWeekMode
+_OBJC_IVAR_$_FSCalendar._deliver
+_OBJC_IVAR_$_FSCalendar._daysContainer
+_OBJC_IVAR_$_FSCalendar._topBorder
+_OBJC_IVAR_$_FSCalendar._bottomBorder
+___block_descriptor_tmp
+___block_descriptor_tmp.349
+_OBJC_IVAR_$_FSCalendar._collectionViewLayout
+_OBJC_IVAR_$_FSCalendar._calendarHeaderView
+___block_descriptor_tmp.385
+___block_descriptor_tmp.388
+_OBJC_IVAR_$_FSCalendar._showsScopeHandle
+_OBJC_IVAR_$_FSCalendar._delegate
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_FSCalendarDelegateAppearance
+l_OBJC_LABEL_PROTOCOL_$_FSCalendarDelegateAppearance
+l_OBJC_PROTOCOL_REFERENCE_$_FSCalendarDelegateAppearance
+_OBJC_IVAR_$_FSCalendar._scopeGesture
+_OBJC_IVAR_$_FSCalendar._swipeToChooseGesture
+_OBJC_IVAR_$_FSCalendar._calendarWeekdayView
+___block_descriptor_tmp.757
+_OBJC_IVAR_$_FSCalendar._dataSource
+_OBJC_IVAR_$_FSCalendar._proxy
+_OBJC_IVAR_$_FSCalendar._calculator
+_OBJC_IVAR_$_FSCalendar._lastPressedIndexPath
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendar.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/Example-Objc
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendar.h
+__destroy_helper_block_
+__copy_helper_block_
+__32-[FSCalendar reloadVisibleCells]_block_invoke
+FSCalendarAssertDateInBounds
+__43-[FSCalendar scrollViewDidEndDecelerating:]_block_invoke
+__73-[FSCalendar scrollViewWillEndDragging:withVelocity:targetContentOffset:]_block_invoke
+__34-[FSCalendar scrollViewDidScroll:]_block_invoke
+__75-[FSCalendar collectionView:viewForSupplementaryElementOfKind:atIndexPath:]_block_invoke
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[FSCalendarAppearance init]
+-[FSCalendarAppearance setTitleFont:]
+-[FSCalendarAppearance titleFont]
+-[FSCalendarAppearance setSubtitleFont:]
+-[FSCalendarAppearance subtitleFont]
+-[FSCalendarAppearance setWeekdayFont:]
+-[FSCalendarAppearance weekdayFont]
+-[FSCalendarAppearance setHeaderTitleFont:]
+-[FSCalendarAppearance setTitleOffset:]
+-[FSCalendarAppearance setSubtitleOffset:]
+-[FSCalendarAppearance setImageOffset:]
+-[FSCalendarAppearance setEventOffset:]
+-[FSCalendarAppearance headerTitleFont]
+-[FSCalendarAppearance setTitleDefaultColor:]
+-[FSCalendarAppearance titleDefaultColor]
+-[FSCalendarAppearance setTitleSelectionColor:]
+-[FSCalendarAppearance titleSelectionColor]
+-[FSCalendarAppearance setTitleTodayColor:]
+-[FSCalendarAppearance titleTodayColor]
+-[FSCalendarAppearance setTitlePlaceholderColor:]
+-[FSCalendarAppearance titlePlaceholderColor]
+-[FSCalendarAppearance setTitleWeekendColor:]
+-[FSCalendarAppearance titleWeekendColor]
+-[FSCalendarAppearance setSubtitleDefaultColor:]
+-[FSCalendarAppearance subtitleDefaultColor]
+-[FSCalendarAppearance setSubtitleSelectionColor:]
+-[FSCalendarAppearance subtitleSelectionColor]
+-[FSCalendarAppearance setSubtitleTodayColor:]
+-[FSCalendarAppearance subtitleTodayColor]
+-[FSCalendarAppearance setSubtitlePlaceholderColor:]
+-[FSCalendarAppearance subtitlePlaceholderColor]
+-[FSCalendarAppearance setSubtitleWeekendColor:]
+-[FSCalendarAppearance subtitleWeekendColor]
+-[FSCalendarAppearance setSelectionColor:]
+-[FSCalendarAppearance selectionColor]
+-[FSCalendarAppearance setTodayColor:]
+-[FSCalendarAppearance todayColor]
+-[FSCalendarAppearance setTodaySelectionColor:]
+-[FSCalendarAppearance todaySelectionColor]
+-[FSCalendarAppearance setEventDefaultColor:]
+-[FSCalendarAppearance setBorderDefaultColor:]
+-[FSCalendarAppearance borderDefaultColor]
+-[FSCalendarAppearance setBorderSelectionColor:]
+-[FSCalendarAppearance borderSelectionColor]
+-[FSCalendarAppearance setBorderRadius:]
+-[FSCalendarAppearance setWeekdayTextColor:]
+-[FSCalendarAppearance setHeaderTitleColor:]
+-[FSCalendarAppearance setHeaderMinimumDissolvedAlpha:]
+-[FSCalendarAppearance setHeaderDateFormat:]
+-[FSCalendarAppearance setAdjustsFontSizeToFitContentSize:]
+-[FSCalendarAppearance preferredTitleFont]
+-[FSCalendarAppearance preferredSubtitleFont]
+-[FSCalendarAppearance preferredWeekdayFont]
+-[FSCalendarAppearance preferredHeaderTitleFont]
+-[FSCalendarAppearance adjustTitleIfNecessary]
+-[FSCalendarAppearance setCaseOptions:]
+-[FSCalendarAppearance setSeparators:]
+-[FSCalendarAppearance invalidateAppearance]
+-[FSCalendarAppearance invalidateFonts]
+-[FSCalendarAppearance invalidateTextColors]
+-[FSCalendarAppearance invalidateBorderColors]
+-[FSCalendarAppearance invalidateFillColors]
+-[FSCalendarAppearance invalidateEventColors]
+-[FSCalendarAppearance invalidateBorderRadius]
+-[FSCalendarAppearance invalidateTitleFont]
+-[FSCalendarAppearance invalidateSubtitleFont]
+-[FSCalendarAppearance invalidateTitleTextColor]
+-[FSCalendarAppearance invalidateSubtitleTextColor]
+-[FSCalendarAppearance invalidateWeekdayFont]
+-[FSCalendarAppearance invalidateWeekdayTextColor]
+-[FSCalendarAppearance invalidateHeaderFont]
+-[FSCalendarAppearance invalidateHeaderTextColor]
+-[FSCalendarAppearance titleOffset]
+-[FSCalendarAppearance subtitleOffset]
+-[FSCalendarAppearance eventOffset]
+-[FSCalendarAppearance imageOffset]
+-[FSCalendarAppearance eventDefaultColor]
+-[FSCalendarAppearance eventSelectionColor]
+-[FSCalendarAppearance setEventSelectionColor:]
+-[FSCalendarAppearance weekdayTextColor]
+-[FSCalendarAppearance headerTitleColor]
+-[FSCalendarAppearance headerDateFormat]
+-[FSCalendarAppearance headerMinimumDissolvedAlpha]
+-[FSCalendarAppearance borderRadius]
+-[FSCalendarAppearance caseOptions]
+-[FSCalendarAppearance separators]
+-[FSCalendarAppearance adjustsFontSizeToFitContentSize]
+-[FSCalendarAppearance calendar]
+-[FSCalendarAppearance setCalendar:]
+-[FSCalendarAppearance backgroundColors]
+-[FSCalendarAppearance setBackgroundColors:]
+-[FSCalendarAppearance titleColors]
+-[FSCalendarAppearance setTitleColors:]
+-[FSCalendarAppearance subtitleColors]
+-[FSCalendarAppearance setSubtitleColors:]
+-[FSCalendarAppearance borderColors]
+-[FSCalendarAppearance setBorderColors:]
+-[FSCalendarAppearance titleFontName]
+-[FSCalendarAppearance setTitleFontName:]
+-[FSCalendarAppearance subtitleFontName]
+-[FSCalendarAppearance setSubtitleFontName:]
+-[FSCalendarAppearance weekdayFontName]
+-[FSCalendarAppearance setWeekdayFontName:]
+-[FSCalendarAppearance headerTitleFontName]
+-[FSCalendarAppearance setHeaderTitleFontName:]
+-[FSCalendarAppearance titleFontSize]
+-[FSCalendarAppearance setTitleFontSize:]
+-[FSCalendarAppearance subtitleFontSize]
+-[FSCalendarAppearance setSubtitleFontSize:]
+-[FSCalendarAppearance weekdayFontSize]
+-[FSCalendarAppearance setWeekdayFontSize:]
+-[FSCalendarAppearance headerTitleFontSize]
+-[FSCalendarAppearance setHeaderTitleFontSize:]
+-[FSCalendarAppearance preferredTitleFontSize]
+-[FSCalendarAppearance setPreferredTitleFontSize:]
+-[FSCalendarAppearance preferredSubtitleFontSize]
+-[FSCalendarAppearance setPreferredSubtitleFontSize:]
+-[FSCalendarAppearance preferredWeekdayFontSize]
+-[FSCalendarAppearance setPreferredWeekdayFontSize:]
+-[FSCalendarAppearance preferredHeaderTitleFontSize]
+-[FSCalendarAppearance setPreferredHeaderTitleFontSize:]
+-[FSCalendarAppearance .cxx_destruct]
+-[FSCalendarAppearance(Deprecated) setUseVeryShortWeekdaySymbols:]
+-[FSCalendarAppearance(Deprecated) useVeryShortWeekdaySymbols]
+-[FSCalendarAppearance(Deprecated) setTitleTextSize:]
+-[FSCalendarAppearance(Deprecated) titleTextSize]
+-[FSCalendarAppearance(Deprecated) setSubtitleTextSize:]
+-[FSCalendarAppearance(Deprecated) subtitleTextSize]
+-[FSCalendarAppearance(Deprecated) setWeekdayTextSize:]
+-[FSCalendarAppearance(Deprecated) weekdayTextSize]
+-[FSCalendarAppearance(Deprecated) setHeaderTitleTextSize:]
+-[FSCalendarAppearance(Deprecated) headerTitleTextSize]
+-[FSCalendarAppearance(Deprecated) setAdjustsFontSizeToFitCellSize:]
+-[FSCalendarAppearance(Deprecated) adjustsFontSizeToFitCellSize]
+-[FSCalendarAppearance(Deprecated) setTitleVerticalOffset:]
+-[FSCalendarAppearance(Deprecated) titleVerticalOffset]
+-[FSCalendarAppearance(Deprecated) setSubtitleVerticalOffset:]
+-[FSCalendarAppearance(Deprecated) subtitleVerticalOffset]
+-[FSCalendarAppearance(Deprecated) setEventColor:]
+-[FSCalendarAppearance(Deprecated) eventColor]
+-[FSCalendarAppearance(Deprecated) setCellShape:]
+-[FSCalendarAppearance(Deprecated) cellShape]
+_OBJC_IVAR_$_FSCalendarAppearance._adjustsFontSizeToFitContentSize
+_OBJC_IVAR_$_FSCalendarAppearance._preferredTitleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._titleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._preferredSubtitleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._preferredWeekdayFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._weekdayFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._preferredHeaderTitleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._headerTitleFontSize
+_OBJC_IVAR_$_FSCalendarAppearance._titleFontName
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleFontName
+_OBJC_IVAR_$_FSCalendarAppearance._weekdayFontName
+_OBJC_IVAR_$_FSCalendarAppearance._headerTitleFontName
+_OBJC_IVAR_$_FSCalendarAppearance._headerTitleColor
+_OBJC_IVAR_$_FSCalendarAppearance._headerDateFormat
+_OBJC_IVAR_$_FSCalendarAppearance._headerMinimumDissolvedAlpha
+_OBJC_IVAR_$_FSCalendarAppearance._weekdayTextColor
+_OBJC_IVAR_$_FSCalendarAppearance._caseOptions
+_OBJC_IVAR_$_FSCalendarAppearance._backgroundColors
+_OBJC_IVAR_$_FSCalendarAppearance._titleColors
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleColors
+_OBJC_IVAR_$_FSCalendarAppearance._borderColors
+_OBJC_IVAR_$_FSCalendarAppearance._borderRadius
+_OBJC_IVAR_$_FSCalendarAppearance._eventDefaultColor
+_OBJC_IVAR_$_FSCalendarAppearance._eventSelectionColor
+_OBJC_IVAR_$_FSCalendarAppearance._titleOffset
+_OBJC_IVAR_$_FSCalendarAppearance._calendar
+_OBJC_IVAR_$_FSCalendarAppearance._subtitleOffset
+_OBJC_IVAR_$_FSCalendarAppearance._imageOffset
+_OBJC_IVAR_$_FSCalendarAppearance._eventOffset
+_OBJC_IVAR_$_FSCalendarAppearance._separators
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarAppearance.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarAppearance.h
+__CGPointEqualToPoint
+-[FSCalendarDelegateProxy initWithCalendar:]
+-[FSCalendarDelegateProxy titleForDate:]
+-[FSCalendarDelegateProxy subtitleForDate:]
+-[FSCalendarDelegateProxy imageForDate:]
+-[FSCalendarDelegateProxy numberOfEventsForDate:]
+-[FSCalendarDelegateProxy minimumDateForCalendar]
+-[FSCalendarDelegateProxy maximumDateForCalendar]
+-[FSCalendarDelegateProxy cellForDate:atMonthPosition:]
+-[FSCalendarDelegateProxy shouldSelectDate:atMonthPosition:]
+-[FSCalendarDelegateProxy didSelectDate:atMonthPosition:]
+-[FSCalendarDelegateProxy shouldDeselectDate:atMonthPosition:]
+-[FSCalendarDelegateProxy didDeselectDate:atMonthPosition:]
+-[FSCalendarDelegateProxy currentPageDidChange]
+-[FSCalendarDelegateProxy boundingRectWillChange:]
+-[FSCalendarDelegateProxy willDisplayCell:forDate:atMonthPosition:]
+-[FSCalendarDelegateProxy preferredFillDefaultColorForDate:]
+-[FSCalendarDelegateProxy preferredFillSelectionColorForDate:]
+-[FSCalendarDelegateProxy preferredTitleDefaultColorForDate:]
+-[FSCalendarDelegateProxy preferredTitleSelectionColorForDate:]
+-[FSCalendarDelegateProxy preferredSubtitleDefaultColorForDate:]
+-[FSCalendarDelegateProxy preferredSubtitleSelectionColorForDate:]
+-[FSCalendarDelegateProxy preferredEventDefaultColorsForDate:]
+-[FSCalendarDelegateProxy preferredEventSelectionColorsForDate:]
+-[FSCalendarDelegateProxy preferredBorderDefaultColorForDate:]
+-[FSCalendarDelegateProxy preferredBorderSelectionColorForDate:]
+-[FSCalendarDelegateProxy preferredBorderRadiusForDate:]
+-[FSCalendarDelegateProxy preferredTitleOffsetForDate:]
+-[FSCalendarDelegateProxy preferredSubtitleOffsetForDate:]
+-[FSCalendarDelegateProxy preferredImageOffsetForDate:]
+-[FSCalendarDelegateProxy preferredEventOffsetForDate:]
+-[FSCalendarDelegateProxy delegate]
+-[FSCalendarDelegateProxy dataSource]
+-[FSCalendarDelegateProxy delegateAppearance]
+-[FSCalendarDelegateProxy calendar]
+-[FSCalendarDelegateProxy setCalendar:]
+-[FSCalendarDelegateProxy .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarDelegateProxy._calendar
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarDelegateProxy.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarDelegateProxy.h
+-[FSCalendarCollectionView initWithFrame:collectionViewLayout:]
+-[FSCalendarCollectionView initWithFrame:]
+-[FSCalendarCollectionView initialize]
+-[FSCalendarCollectionView setContentInset:]
+-[FSCalendarCollectionView setScrollsToTop:]
+-[FSCalendarCollectionView scrollsToTop]
+-[FSCalendarCollectionView contentInset]
+-[FSCalendarSeparator initWithFrame:]
+-[FSCalendarSeparator applyLayoutAttributes:]
+_OBJC_IVAR_$_FSCalendarCollectionView._scrollsToTop
+_OBJC_IVAR_$_FSCalendarCollectionView._contentInset
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCollectionView.m
+-[UIScrollView contentInset]
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h
+-[UIScrollView scrollsToTop]
+-[FSCalendar(Deprecated) setShowsPlaceholders:]
+-[FSCalendar(Deprecated) showsPlaceholders]
+-[FSCalendar(Deprecated) yearOfDate:]
+-[FSCalendar(Deprecated) monthOfDate:]
+-[FSCalendar(Deprecated) dayOfDate:]
+-[FSCalendar(Deprecated) weekdayOfDate:]
+-[FSCalendar(Deprecated) weekOfDate:]
+-[FSCalendar(Deprecated) dateByIgnoringTimeComponentsOfDate:]
+-[FSCalendar(Deprecated) tomorrowOfDate:]
+-[FSCalendar(Deprecated) yesterdayOfDate:]
+-[FSCalendar(Deprecated) dateWithYear:month:day:]
+-[FSCalendar(Deprecated) dateByAddingYears:toDate:]
+-[FSCalendar(Deprecated) dateBySubstractingYears:fromDate:]
+-[FSCalendar(Deprecated) dateByAddingMonths:toDate:]
+-[FSCalendar(Deprecated) dateBySubstractingMonths:fromDate:]
+-[FSCalendar(Deprecated) dateByAddingWeeks:toDate:]
+-[FSCalendar(Deprecated) dateBySubstractingWeeks:fromDate:]
+-[FSCalendar(Deprecated) dateByAddingDays:toDate:]
+-[FSCalendar(Deprecated) dateBySubstractingDays:fromDate:]
+-[FSCalendar(Deprecated) yearsFromDate:toDate:]
+-[FSCalendar(Deprecated) monthsFromDate:toDate:]
+-[FSCalendar(Deprecated) weeksFromDate:toDate:]
+-[FSCalendar(Deprecated) daysFromDate:toDate:]
+-[FSCalendar(Deprecated) isDate:equalToDate:toCalendarUnit:]
+-[FSCalendar(Deprecated) isDateInToday:]
+-[FSCalendar(Deprecated) setIdentifier:]
+-[FSCalendar(Deprecated) identifier]
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendar+Deprecated.m
+-[FSCalendarCell initWithFrame:]
+-[FSCalendarCell initWithCoder:]
+-[FSCalendarCell commonInit]
+-[FSCalendarCell layoutSubviews]
+-[FSCalendarCell prepareForReuse]
+-[FSCalendarCell performSelecting]
+-[FSCalendarCell configureAppearance]
+-[FSCalendarCell colorForCurrentStateInDictionary:]
+-[FSCalendarCell invalidateTitleFont]
+-[FSCalendarCell invalidateTitleTextColor]
+-[FSCalendarCell invalidateSubtitleFont]
+-[FSCalendarCell invalidateSubtitleTextColor]
+-[FSCalendarCell invalidateBorderColors]
+-[FSCalendarCell invalidateFillColors]
+-[FSCalendarCell invalidateEventColors]
+-[FSCalendarCell invalidateBorderRadius]
+-[FSCalendarCell invalidateImage]
+-[FSCalendarCell colorForCellFill]
+-[FSCalendarCell colorForTitleLabel]
+-[FSCalendarCell colorForSubtitleLabel]
+-[FSCalendarCell colorForCellBorder]
+-[FSCalendarCell colorsForEvents]
+-[FSCalendarCell borderRadius]
+-[FSCalendarCell setPreferredTitleOffset:]
+-[FSCalendarCell preferredTitleOffset]
+-[FSCalendarCell setPreferredSubtitleOffset:]
+-[FSCalendarCell preferredSubtitleOffset]
+-[FSCalendarCell setPreferredImageOffset:]
+-[FSCalendarCell preferredImageOffset]
+-[FSCalendarCell setPreferredEventOffset:]
+-[FSCalendarCell preferredEventOffset]
+-[FSCalendarCell setCalendar:]
+-[FSCalendarCell setSubtitle:]
+-[FSCalendarCell calendar]
+-[FSCalendarCell appearance]
+-[FSCalendarCell setAppearance:]
+-[FSCalendarCell titleLabel]
+-[FSCalendarCell setTitleLabel:]
+-[FSCalendarCell subtitleLabel]
+-[FSCalendarCell setSubtitleLabel:]
+-[FSCalendarCell imageView]
+-[FSCalendarCell setImageView:]
+-[FSCalendarCell shapeLayer]
+-[FSCalendarCell setShapeLayer:]
+-[FSCalendarCell eventIndicator]
+-[FSCalendarCell setEventIndicator:]
+-[FSCalendarCell title]
+-[FSCalendarCell setTitle:]
+-[FSCalendarCell subtitle]
+-[FSCalendarCell image]
+-[FSCalendarCell setImage:]
+-[FSCalendarCell monthPosition]
+-[FSCalendarCell setMonthPosition:]
+-[FSCalendarCell numberOfEvents]
+-[FSCalendarCell setNumberOfEvents:]
+-[FSCalendarCell dateIsToday]
+-[FSCalendarCell setDateIsToday:]
+-[FSCalendarCell weekend]
+-[FSCalendarCell setWeekend:]
+-[FSCalendarCell placeholder]
+-[FSCalendarCell setPlaceholder:]
+-[FSCalendarCell preferredFillDefaultColor]
+-[FSCalendarCell setPreferredFillDefaultColor:]
+-[FSCalendarCell preferredFillSelectionColor]
+-[FSCalendarCell setPreferredFillSelectionColor:]
+-[FSCalendarCell preferredTitleDefaultColor]
+-[FSCalendarCell setPreferredTitleDefaultColor:]
+-[FSCalendarCell preferredTitleSelectionColor]
+-[FSCalendarCell setPreferredTitleSelectionColor:]
+-[FSCalendarCell preferredSubtitleDefaultColor]
+-[FSCalendarCell setPreferredSubtitleDefaultColor:]
+-[FSCalendarCell preferredSubtitleSelectionColor]
+-[FSCalendarCell setPreferredSubtitleSelectionColor:]
+-[FSCalendarCell preferredBorderDefaultColor]
+-[FSCalendarCell setPreferredBorderDefaultColor:]
+-[FSCalendarCell preferredBorderSelectionColor]
+-[FSCalendarCell setPreferredBorderSelectionColor:]
+-[FSCalendarCell preferredEventDefaultColors]
+-[FSCalendarCell setPreferredEventDefaultColors:]
+-[FSCalendarCell preferredEventSelectionColors]
+-[FSCalendarCell setPreferredEventSelectionColors:]
+-[FSCalendarCell preferredBorderRadius]
+-[FSCalendarCell setPreferredBorderRadius:]
+-[FSCalendarCell .cxx_destruct]
+-[FSCalendarEventIndicator initWithFrame:]
+-[FSCalendarEventIndicator layoutSubviews]
+-[FSCalendarEventIndicator layoutSublayersOfLayer:]
+-[FSCalendarEventIndicator setColor:]
+-[FSCalendarEventIndicator setNumberOfEvents:]
+-[FSCalendarEventIndicator numberOfEvents]
+-[FSCalendarEventIndicator color]
+-[FSCalendarEventIndicator contentView]
+-[FSCalendarEventIndicator setContentView:]
+-[FSCalendarEventIndicator eventLayers]
+-[FSCalendarEventIndicator setEventLayers:]
+-[FSCalendarEventIndicator needsInvalidatingColor]
+-[FSCalendarEventIndicator setNeedsInvalidatingColor:]
+-[FSCalendarEventIndicator .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarCell._titleLabel
+_OBJC_IVAR_$_FSCalendarCell._subtitle
+_OBJC_IVAR_$_FSCalendarCell._subtitleLabel
+_OBJC_IVAR_$_FSCalendarCell._imageView
+_OBJC_IVAR_$_FSCalendarCell._shapeLayer
+_OBJC_IVAR_$_FSCalendarCell._eventIndicator
+_OBJC_IVAR_$_FSCalendarCell._image
+_OBJC_IVAR_$_FSCalendarCell._numberOfEvents
+_OBJC_IVAR_$_FSCalendarCell._appearance
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredEventSelectionColors
+_OBJC_IVAR_$_FSCalendarCell._preferredEventDefaultColors
+_OBJC_IVAR_$_FSCalendarCell._preferredBorderRadius
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleOffset
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleOffset
+_OBJC_IVAR_$_FSCalendarCell._preferredImageOffset
+_OBJC_IVAR_$_FSCalendarCell._preferredEventOffset
+_OBJC_IVAR_$_FSCalendarCell._calendar
+_OBJC_IVAR_$_FSCalendarCell._title
+_OBJC_IVAR_$_FSCalendarCell._monthPosition
+_OBJC_IVAR_$_FSCalendarCell._dateIsToday
+_OBJC_IVAR_$_FSCalendarCell._weekend
+_OBJC_IVAR_$_FSCalendarCell._placeholder
+_OBJC_IVAR_$_FSCalendarCell._preferredFillDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredFillSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredTitleSelectionColor
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleDefaultColor
+_OBJC_IVAR_$_FSCalendarCell._preferredSubtitleSelectionColor
+_OBJC_IVAR_$_FSCalendarEventIndicator._needsInvalidatingColor
+_OBJC_IVAR_$_FSCalendarEventIndicator._color
+_OBJC_IVAR_$_FSCalendarEventIndicator._numberOfEvents
+_OBJC_IVAR_$_FSCalendarEventIndicator._contentView
+_OBJC_IVAR_$_FSCalendarEventIndicator._eventLayers
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCell.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCell.h
+-[FSCalendarCalculator initWithCalendar:]
+-[FSCalendarCalculator cache:willEvictObject:]
+-[FSCalendarCalculator titleHeight]
+-[FSCalendarCalculator subtitleHeight]
+-[FSCalendarCalculator safeDateForDate:]
+-[FSCalendarCalculator dateForIndexPath:scope:]
+-[FSCalendarCalculator dateForIndexPath:]
+-[FSCalendarCalculator indexPathForDate:]
+-[FSCalendarCalculator indexPathForDate:scope:]
+-[FSCalendarCalculator indexPathForDate:atMonthPosition:scope:]
+-[FSCalendarCalculator indexPathForDate:atMonthPosition:]
+-[FSCalendarCalculator reloadSections]
+-[FSCalendarCalculator pageForSection:]
+-[FSCalendarCalculator monthForSection:]
+-[FSCalendarCalculator monthHeadForSection:]
+-[FSCalendarCalculator weekForSection:]
+-[FSCalendarCalculator numberOfSections]
+-[FSCalendarCalculator numberOfHeadPlaceholdersForMonth:]
+-[FSCalendarCalculator numberOfRowsInMonth:]
+-[FSCalendarCalculator numberOfRowsInSection:]
+-[FSCalendarCalculator monthPositionForIndexPath:]
+-[FSCalendarCalculator gregorian]
+-[FSCalendarCalculator minimumDate]
+-[FSCalendarCalculator maximumDate]
+-[FSCalendarCalculator calendar]
+-[FSCalendarCalculator setCalendar:]
+-[FSCalendarCalculator monthHeight]
+-[FSCalendarCalculator setMonthHeight:]
+-[FSCalendarCalculator setTitleHeight:]
+-[FSCalendarCalculator setSubtitleHeight:]
+-[FSCalendarCalculator numberOfMonths]
+-[FSCalendarCalculator setNumberOfMonths:]
+-[FSCalendarCalculator months]
+-[FSCalendarCalculator setMonths:]
+-[FSCalendarCalculator monthHeads]
+-[FSCalendarCalculator setMonthHeads:]
+-[FSCalendarCalculator numberOfWeeks]
+-[FSCalendarCalculator setNumberOfWeeks:]
+-[FSCalendarCalculator weeks]
+-[FSCalendarCalculator setWeeks:]
+-[FSCalendarCalculator rowNumbers]
+-[FSCalendarCalculator setRowNumbers:]
+-[FSCalendarCalculator .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarCalculator._titleHeight
+_OBJC_IVAR_$_FSCalendarCalculator._subtitleHeight
+_OBJC_IVAR_$_FSCalendarCalculator._calendar
+_OBJC_IVAR_$_FSCalendarCalculator._monthHeight
+_OBJC_IVAR_$_FSCalendarCalculator._numberOfMonths
+_OBJC_IVAR_$_FSCalendarCalculator._months
+_OBJC_IVAR_$_FSCalendarCalculator._monthHeads
+_OBJC_IVAR_$_FSCalendarCalculator._numberOfWeeks
+_OBJC_IVAR_$_FSCalendarCalculator._weeks
+_OBJC_IVAR_$_FSCalendarCalculator._rowNumbers
+l_OBJC_PROTOCOL_$_NSCacheDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSCacheDelegate
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCalculator.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCalculator.h
+-[FSCalendarWeekdayView initWithFrame:]
+-[FSCalendarWeekdayView initWithCoder:]
+-[FSCalendarWeekdayView commonInit]
+-[FSCalendarWeekdayView layoutSubviews]
+___39-[FSCalendarWeekdayView layoutSubviews]_block_invoke
+-[FSCalendarWeekdayView invalidateWeekdaySymbols]
+___49-[FSCalendarWeekdayView invalidateWeekdaySymbols]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[FSCalendarWeekdayView setCalendar:]
+-[FSCalendarWeekdayView weekdayLabels]
+-[FSCalendarWeekdayView contentView]
+-[FSCalendarWeekdayView calendar]
+-[FSCalendarWeekdayView .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarWeekdayView._contentView
+_OBJC_IVAR_$_FSCalendarWeekdayView._weekdayLabels
+___block_descriptor_tmp.59
+_OBJC_IVAR_$_FSCalendarWeekdayView._calendar
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarWeekdayView.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarWeekdayView.h
+__49-[FSCalendarWeekdayView invalidateWeekdaySymbols]_block_invoke
+__39-[FSCalendarWeekdayView layoutSubviews]_block_invoke
+-[FSCalendarHeaderView initWithFrame:]
+-[FSCalendarHeaderView initWithCoder:]
+-[FSCalendarHeaderView initialize]
+-[FSCalendarHeaderView layoutSubviews]
+-[FSCalendarHeaderView dealloc]
+-[FSCalendarHeaderView numberOfSectionsInCollectionView:]
+-[FSCalendarHeaderView collectionView:numberOfItemsInSection:]
+-[FSCalendarHeaderView collectionView:cellForItemAtIndexPath:]
+-[FSCalendarHeaderView collectionView:didEndDisplayingCell:forItemAtIndexPath:]
+-[FSCalendarHeaderView scrollViewDidScroll:]
+-[FSCalendarHeaderView setCalendar:]
+-[FSCalendarHeaderView setScrollOffset:]
+-[FSCalendarHeaderView scrollToOffset:]
+-[FSCalendarHeaderView setScrollDirection:]
+-[FSCalendarHeaderView setScrollEnabled:]
+-[FSCalendarHeaderView hasValidateVisibleLayout]
+-[FSCalendarHeaderView reloadData]
+-[FSCalendarHeaderView collectionView]
+-[FSCalendarHeaderView setCollectionView:]
+-[FSCalendarHeaderView collectionViewLayout]
+-[FSCalendarHeaderView setCollectionViewLayout:]
+-[FSCalendarHeaderView calendar]
+-[FSCalendarHeaderView appearance]
+-[FSCalendarHeaderView setAppearance:]
+-[FSCalendarHeaderView scrollOffset]
+-[FSCalendarHeaderView scrollDirection]
+-[FSCalendarHeaderView scrollEnabled]
+-[FSCalendarHeaderView needsAdjustingViewFrame]
+-[FSCalendarHeaderView setNeedsAdjustingViewFrame:]
+-[FSCalendarHeaderView needsAdjustingMonthPosition]
+-[FSCalendarHeaderView setNeedsAdjustingMonthPosition:]
+-[FSCalendarHeaderView .cxx_destruct]
+-[FSCalendarHeaderCell initWithFrame:]
+-[FSCalendarHeaderCell setBounds:]
+-[FSCalendarHeaderCell layoutSubviews]
+-[FSCalendarHeaderCell invalidateHeaderFont]
+-[FSCalendarHeaderCell invalidateHeaderTextColor]
+-[FSCalendarHeaderCell titleLabel]
+-[FSCalendarHeaderCell setTitleLabel:]
+-[FSCalendarHeaderCell header]
+-[FSCalendarHeaderCell setHeader:]
+-[FSCalendarHeaderCell .cxx_destruct]
+-[FSCalendarHeaderLayout init]
+-[FSCalendarHeaderLayout prepareLayout]
+-[FSCalendarHeaderTouchDeliver hitTest:withEvent:]
+-[FSCalendarHeaderTouchDeliver calendar]
+-[FSCalendarHeaderTouchDeliver setCalendar:]
+-[FSCalendarHeaderTouchDeliver header]
+-[FSCalendarHeaderTouchDeliver setHeader:]
+-[FSCalendarHeaderTouchDeliver .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarHeaderView._needsAdjustingViewFrame
+_OBJC_IVAR_$_FSCalendarHeaderView._scrollDirection
+_OBJC_IVAR_$_FSCalendarHeaderView._scrollEnabled
+_OBJC_IVAR_$_FSCalendarHeaderView._collectionViewLayout
+_OBJC_IVAR_$_FSCalendarHeaderView._collectionView
+_OBJC_IVAR_$_FSCalendarHeaderView._needsAdjustingMonthPosition
+_OBJC_IVAR_$_FSCalendarHeaderView._scrollOffset
+_OBJC_IVAR_$_FSCalendarHeaderView._calendar
+_OBJC_IVAR_$_FSCalendarHeaderView._appearance
+_OBJC_IVAR_$_FSCalendarHeaderCell._titleLabel
+_OBJC_IVAR_$_FSCalendarHeaderCell._header
+_OBJC_IVAR_$_FSCalendarHeaderTouchDeliver._calendar
+_OBJC_IVAR_$_FSCalendarHeaderTouchDeliver._header
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarHeaderView.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarHeaderView.h
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarConstants.m
+-[UIView(FSCalendarExtensions) fs_width]
+-[UIView(FSCalendarExtensions) setFs_width:]
+-[UIView(FSCalendarExtensions) fs_height]
+-[UIView(FSCalendarExtensions) setFs_height:]
+-[UIView(FSCalendarExtensions) fs_top]
+-[UIView(FSCalendarExtensions) setFs_top:]
+-[UIView(FSCalendarExtensions) fs_bottom]
+-[UIView(FSCalendarExtensions) setFs_bottom:]
+-[UIView(FSCalendarExtensions) fs_left]
+-[UIView(FSCalendarExtensions) setFs_left:]
+-[UIView(FSCalendarExtensions) fs_right]
+-[UIView(FSCalendarExtensions) setFs_right:]
+-[CALayer(FSCalendarExtensions) fs_width]
+-[CALayer(FSCalendarExtensions) setFs_width:]
+-[CALayer(FSCalendarExtensions) fs_height]
+-[CALayer(FSCalendarExtensions) setFs_height:]
+-[CALayer(FSCalendarExtensions) fs_top]
+-[CALayer(FSCalendarExtensions) setFs_top:]
+-[CALayer(FSCalendarExtensions) fs_bottom]
+-[CALayer(FSCalendarExtensions) setFs_bottom:]
+-[CALayer(FSCalendarExtensions) fs_left]
+-[CALayer(FSCalendarExtensions) setFs_left:]
+-[CALayer(FSCalendarExtensions) fs_right]
+-[CALayer(FSCalendarExtensions) setFs_right:]
+-[NSCalendar(FSCalendarExtensions) fs_firstDayOfMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_lastDayOfMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_firstDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_lastDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_middleDayOfWeek:]
+-[NSCalendar(FSCalendarExtensions) fs_numberOfDaysInMonth:]
+-[NSCalendar(FSCalendarExtensions) fs_privateComponents]
+-[NSCache(FSCalendarExtensions) setObject:forKeyedSubscript:]
+-[NSCache(FSCalendarExtensions) objectForKeyedSubscript:]
+-[NSObject(FSCalendarExtensions) fs_setVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_variableForKey:]
+-[NSObject(FSCalendarExtensions) fs_setUnsignedIntegerVariable:forKey:]
+-[NSObject(FSCalendarExtensions) fs_unsignedIntegerVariableForKey:]
+-[NSObject(FSCalendarExtensions) fs_performSelector:withObjects:]
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarExtensions.m
+-[FSCalendarCollectionViewLayout init]
+-[FSCalendarCollectionViewLayout prepareLayout]
+-[FSCalendarCollectionViewLayout layoutAttributesForElementsInRect:]
+___68-[FSCalendarCollectionViewLayout layoutAttributesForElementsInRect:]_block_invoke
+-[FSCalendarCollectionViewLayout calendar]
+-[FSCalendarCollectionViewLayout setCalendar:]
+-[FSCalendarCollectionViewLayout .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarCollectionViewLayout._calendar
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCollectionViewLayout.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarCollectionViewLayout.h
+__68-[FSCalendarCollectionViewLayout layoutAttributesForElementsInRect:]_block_invoke
+-[FSCalendarScopeHandle initWithFrame:]
+-[FSCalendarScopeHandle layoutSubviews]
+-[FSCalendarScopeHandle handlePan:]
+-[FSCalendarScopeHandle setCalendar:]
+-[FSCalendarScopeHandle panGesture]
+-[FSCalendarScopeHandle setPanGesture:]
+-[FSCalendarScopeHandle calendar]
+-[FSCalendarScopeHandle topBorder]
+-[FSCalendarScopeHandle setTopBorder:]
+-[FSCalendarScopeHandle handleIndicator]
+-[FSCalendarScopeHandle setHandleIndicator:]
+-[FSCalendarScopeHandle appearance]
+-[FSCalendarScopeHandle setAppearance:]
+-[FSCalendarScopeHandle lastTranslation]
+-[FSCalendarScopeHandle setLastTranslation:]
+-[FSCalendarScopeHandle .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarScopeHandle._calendar
+_OBJC_IVAR_$_FSCalendarScopeHandle._panGesture
+_OBJC_IVAR_$_FSCalendarScopeHandle._topBorder
+_OBJC_IVAR_$_FSCalendarScopeHandle._handleIndicator
+_OBJC_IVAR_$_FSCalendarScopeHandle._appearance
+_OBJC_IVAR_$_FSCalendarScopeHandle._lastTranslation
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarScopeHandle.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarScopeHandle.h
+-[FSCalendarAnimator initWithCalendar:]
+-[FSCalendarAnimator handlePan:]
+-[FSCalendarAnimator gestureRecognizerShouldBegin:]
+-[FSCalendarAnimator gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[FSCalendarAnimator scopeTransitionDidBegin:]
+-[FSCalendarAnimator scopeTransitionDidUpdate:]
+-[FSCalendarAnimator scopeTransitionDidEnd:]
+-[FSCalendarAnimator performScopeTransitionFromScope:toScope:animated:]
+___71-[FSCalendarAnimator performScopeTransitionFromScope:toScope:animated:]_block_invoke
+___71-[FSCalendarAnimator performScopeTransitionFromScope:toScope:animated:]_block_invoke.122
+___copy_helper_block_.123
+___destroy_helper_block_.124
+-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]
+___78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke
+___78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke_2
+___copy_helper_block_.138
+___destroy_helper_block_.139
+___copy_helper_block_.141
+___destroy_helper_block_.142
+___78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke.153
+___copy_helper_block_.154
+___destroy_helper_block_.155
+-[FSCalendarAnimator performTransitionCompletionAnimated:]
+-[FSCalendarAnimator performTransitionCompletion:animated:]
+___59-[FSCalendarAnimator performTransitionCompletion:animated:]_block_invoke
+___59-[FSCalendarAnimator performTransitionCompletion:animated:]_block_invoke_2
+-[FSCalendarAnimator transitionAttributes]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+-[FSCalendarAnimator setCalendarScope:]
+-[FSCalendarAnimator calendarScope]
+-[FSCalendarAnimator setCalendarCurrentPage:]
+-[FSCalendarAnimator calendarCurrentPage]
+-[FSCalendarAnimator boundingRectForScope:page:]
+-[FSCalendarAnimator boundingRectWillChange:animated:]
+-[FSCalendarAnimator performForwardTransition:fromProgress:]
+___60-[FSCalendarAnimator performForwardTransition:fromProgress:]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+___60-[FSCalendarAnimator performForwardTransition:fromProgress:]_block_invoke.282
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[FSCalendarAnimator performBackwardTransition:fromProgress:]
+___61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke
+___61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke_2
+___copy_helper_block_.288
+___destroy_helper_block_.289
+___61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke.291
+___copy_helper_block_.294
+___destroy_helper_block_.295
+-[FSCalendarAnimator performAlphaAnimationFrom:to:duration:exception:completion:]
+___81-[FSCalendarAnimator performAlphaAnimationFrom:to:duration:exception:completion:]_block_invoke
+___copy_helper_block_.317
+___destroy_helper_block_.318
+___81-[FSCalendarAnimator performAlphaAnimationFrom:to:duration:exception:completion:]_block_invoke.321
+___copy_helper_block_.322
+___destroy_helper_block_.323
+-[FSCalendarAnimator performAlphaAnimationWithProgress:]
+___56-[FSCalendarAnimator performAlphaAnimationWithProgress:]_block_invoke
+___copy_helper_block_.325
+___destroy_helper_block_.326
+-[FSCalendarAnimator performPathAnimationWithProgress:]
+-[FSCalendarAnimator prelayoutForWeekToMonthTransition]
+-[FSCalendarAnimator calendar]
+-[FSCalendarAnimator setCalendar:]
+-[FSCalendarAnimator collectionView]
+-[FSCalendarAnimator setCollectionView:]
+-[FSCalendarAnimator collectionViewLayout]
+-[FSCalendarAnimator setCollectionViewLayout:]
+-[FSCalendarAnimator transition]
+-[FSCalendarAnimator setTransition:]
+-[FSCalendarAnimator state]
+-[FSCalendarAnimator setState:]
+-[FSCalendarAnimator cachedMonthSize]
+-[FSCalendarAnimator setCachedMonthSize:]
+-[FSCalendarAnimator pendingAttributes]
+-[FSCalendarAnimator setPendingAttributes:]
+-[FSCalendarAnimator lastTranslation]
+-[FSCalendarAnimator setLastTranslation:]
+-[FSCalendarAnimator .cxx_destruct]
+-[FSCalendarTransitionAttributes sourceBounds]
+-[FSCalendarTransitionAttributes setSourceBounds:]
+-[FSCalendarTransitionAttributes targetBounds]
+-[FSCalendarTransitionAttributes setTargetBounds:]
+-[FSCalendarTransitionAttributes sourcePage]
+-[FSCalendarTransitionAttributes setSourcePage:]
+-[FSCalendarTransitionAttributes targetPage]
+-[FSCalendarTransitionAttributes setTargetPage:]
+-[FSCalendarTransitionAttributes focusedRowNumber]
+-[FSCalendarTransitionAttributes setFocusedRowNumber:]
+-[FSCalendarTransitionAttributes focusedDate]
+-[FSCalendarTransitionAttributes setFocusedDate:]
+-[FSCalendarTransitionAttributes firstDayOfMonth]
+-[FSCalendarTransitionAttributes setFirstDayOfMonth:]
+-[FSCalendarTransitionAttributes .cxx_destruct]
+___block_descriptor_tmp.125
+___block_descriptor_tmp.140
+___block_descriptor_tmp.144
+___block_descriptor_tmp.156
+___block_descriptor_tmp.168
+___block_literal_global
+___block_descriptor_tmp.183
+___block_literal_global.184
+___block_descriptor_tmp.278
+___block_descriptor_tmp.285
+___block_descriptor_tmp.286
+___block_literal_global.287
+___block_descriptor_tmp.290
+___block_descriptor_tmp.296
+___block_descriptor_tmp.320
+___block_descriptor_tmp.324
+___block_descriptor_tmp.327
+_OBJC_IVAR_$_FSCalendarAnimator._calendar
+_OBJC_IVAR_$_FSCalendarAnimator._collectionView
+_OBJC_IVAR_$_FSCalendarAnimator._collectionViewLayout
+_OBJC_IVAR_$_FSCalendarAnimator._transition
+_OBJC_IVAR_$_FSCalendarAnimator._state
+_OBJC_IVAR_$_FSCalendarAnimator._cachedMonthSize
+_OBJC_IVAR_$_FSCalendarAnimator._pendingAttributes
+_OBJC_IVAR_$_FSCalendarAnimator._lastTranslation
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._sourceBounds
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._targetBounds
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._sourcePage
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._targetPage
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._focusedRowNumber
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._focusedDate
+_OBJC_IVAR_$_FSCalendarTransitionAttributes._firstDayOfMonth
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarAnimator.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarAnimator.h
+__56-[FSCalendarAnimator performAlphaAnimationWithProgress:]_block_invoke
+__81-[FSCalendarAnimator performAlphaAnimationFrom:to:duration:exception:completion:]_block_invoke.321
+__81-[FSCalendarAnimator performAlphaAnimationFrom:to:duration:exception:completion:]_block_invoke
+__61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke.291
+__61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke_2
+__61-[FSCalendarAnimator performBackwardTransition:fromProgress:]_block_invoke
+__60-[FSCalendarAnimator performForwardTransition:fromProgress:]_block_invoke.282
+__60-[FSCalendarAnimator performForwardTransition:fromProgress:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__59-[FSCalendarAnimator performTransitionCompletion:animated:]_block_invoke_2
+__59-[FSCalendarAnimator performTransitionCompletion:animated:]_block_invoke
+__78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke.153
+__78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke_2
+__78-[FSCalendarAnimator performBoundingRectTransitionFromMonth:toMonth:duration:]_block_invoke
+__71-[FSCalendarAnimator performScopeTransitionFromScope:toScope:animated:]_block_invoke.122
+__71-[FSCalendarAnimator performScopeTransitionFromScope:toScope:animated:]_block_invoke
+-[FSCalendarStickyHeader initWithFrame:]
+-[FSCalendarStickyHeader layoutSubviews]
+-[FSCalendarStickyHeader setCalendar:]
+-[FSCalendarStickyHeader invalidateHeaderFont]
+-[FSCalendarStickyHeader invalidateHeaderTextColor]
+-[FSCalendarStickyHeader invalidateWeekdayFont]
+-[FSCalendarStickyHeader invalidateWeekdayTextColor]
+-[FSCalendarStickyHeader invalidateWeekdaySymbols]
+-[FSCalendarStickyHeader setMonth:]
+-[FSCalendarStickyHeader reloadData]
+-[FSCalendarStickyHeader calendar]
+-[FSCalendarStickyHeader appearance]
+-[FSCalendarStickyHeader setAppearance:]
+-[FSCalendarStickyHeader titleLabel]
+-[FSCalendarStickyHeader setTitleLabel:]
+-[FSCalendarStickyHeader month]
+-[FSCalendarStickyHeader contentView]
+-[FSCalendarStickyHeader setContentView:]
+-[FSCalendarStickyHeader bottomBorder]
+-[FSCalendarStickyHeader setBottomBorder:]
+-[FSCalendarStickyHeader weekdayView]
+-[FSCalendarStickyHeader setWeekdayView:]
+-[FSCalendarStickyHeader .cxx_destruct]
+_OBJC_IVAR_$_FSCalendarStickyHeader._contentView
+_OBJC_IVAR_$_FSCalendarStickyHeader._calendar
+_OBJC_IVAR_$_FSCalendarStickyHeader._appearance
+_OBJC_IVAR_$_FSCalendarStickyHeader._bottomBorder
+_OBJC_IVAR_$_FSCalendarStickyHeader._titleLabel
+_OBJC_IVAR_$_FSCalendarStickyHeader._weekdayView
+_OBJC_IVAR_$_FSCalendarStickyHeader._month
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarStickyHeader.m
+/Users/shristihingle/Documents/CS810A/MenstrualBuddyProject/MenstrualBuddy/Carthage/Checkouts/FSCalendar/FSCalendar/FSCalendarStickyHeader.h
+/Users/shristihingle/Library/Developer/Xcode/DerivedData/FSCalendar-aupxrmlswgwklzekqmxlrhwdzvyw/Build/Intermediates/FSCalendar.build/Release-iphoneos/FSCalendar.build/DerivedSources/FSCalendar_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 8.0.0 (clang-800.0.42)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.1
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB122B431DF7977400D70CC7 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB122B421DF7977400D70CC7 /* Venue.swift */; };
+		FB122B451DF79B2F00D70CC7 /* PharmacyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB122B441DF79B2F00D70CC7 /* PharmacyAnnotation.swift */; };
+		FB122B521DF7B71600D70CC7 /* QuadratTouch.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FB122B4F1DF7B6E500D70CC7 /* QuadratTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB1372221DF36509004AA2D7 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1372211DF36509004AA2D7 /* DataTableViewController.swift */; };
+		FB1372241DF37192004AA2D7 /* AddDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1372231DF37192004AA2D7 /* AddDataTableViewController.swift */; };
+		FB1372281DF3723B004AA2D7 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1372271DF3723B004AA2D7 /* DatePickerCell.swift */; };
+		FB13722A1DF37E24004AA2D7 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1372291DF37E24004AA2D7 /* NumberCell.swift */; };
+		FB13722C1DF384B2004AA2D7 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB13722B1DF384B2004AA2D7 /* HealthManager.swift */; };
+		FB1887CA1DE91DC9006BC237 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1887C91DE91DC9006BC237 /* MenuController.swift */; };
+		FB1887CE1DE91EA7006BC237 /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1887CD1DE91EA7006BC237 /* PersonalDetailsViewController.swift */; };
+		FB2DC0011DCACB9700EE812F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DC0001DCACB9700EE812F /* AppDelegate.swift */; };
+		FB2DC0061DCACB9700EE812F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2DC0041DCACB9700EE812F /* Main.storyboard */; };
+		FB2DC0091DCACB9700EE812F /* MenstrualBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB2DC0071DCACB9700EE812F /* MenstrualBuddy.xcdatamodeld */; };
+		FB2DC00E1DCACB9700EE812F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2DC00C1DCACB9700EE812F /* LaunchScreen.storyboard */; };
+		FB2DC0191DCACB9700EE812F /* MenstrualBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DC0181DCACB9700EE812F /* MenstrualBuddyTests.swift */; };
+		FB2DC0241DCACB9800EE812F /* MenstrualBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DC0231DCACB9700EE812F /* MenstrualBuddyUITests.swift */; };
+		FB4889881DE91C1700B1D146 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4889871DE91C1700B1D146 /* SWRevealViewController.m */; };
+		FB4F13601DF86F0D001A9146 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B0901DF644630060B0C1 /* FSCalendar.framework */; };
+		FB4F13611DF86F13001A9146 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B0901DF644630060B0C1 /* FSCalendar.framework */; };
+		FB4F13621DF86F13001A9146 /* FSCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B0901DF644630060B0C1 /* FSCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB4F13631DF882A0001A9146 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB122B371DF793A600D70CC7 /* Realm.framework */; };
+		FB4F13641DF882A0001A9146 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB122B371DF793A600D70CC7 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB4F13651DF882AE001A9146 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB122B381DF793A600D70CC7 /* RealmSwift.framework */; };
+		FB4F13661DF882AE001A9146 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB122B381DF793A600D70CC7 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB4F13681DF888ED001A9146 /* AdditionalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F13671DF888ED001A9146 /* AdditionalDataViewController.swift */; };
+		FB5A055A1DF7905600BCF0EB /* MenstrualBuddyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A05591DF7905600BCF0EB /* MenstrualBuddyAPI.swift */; };
+		FB5EBCE01DE924C000D6820D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5EBCDF1DE924C000D6820D /* MapKit.framework */; };
+		FB5EBCEE1DE93C4900D6820D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5EBCED1DE93C4900D6820D /* Assets.xcassets */; };
+		FB5EBCF01DEA5C1400D6820D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5EBCEF1DEA5C1400D6820D /* HomeViewController.swift */; };
+		FB5EBCF21DEA5C9A00D6820D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5EBCF11DEA5C9A00D6820D /* CalendarViewController.swift */; };
+		FB5EBCF41DEA5CFD00D6820D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5EBCF31DEA5CFD00D6820D /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB122B4C1DF7B6E500D70CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 476B70891A0EBAE700AFAC33;
+			remoteInfo = Quadrat;
+		};
+		FB122B4E1DF7B6E500D70CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 476B70DA1A0EBBA500AFAC33;
+			remoteInfo = QuadratTouch;
+		};
+		FB122B501DF7B70D00D70CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 476B70D91A0EBBA500AFAC33;
+			remoteInfo = QuadratTouch;
+		};
+		FB2DC0151DCACB9700EE812F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2DBFF51DCACB9700EE812F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2DBFFC1DCACB9700EE812F;
+			remoteInfo = MenstrualBuddy;
+		};
+		FB2DC0201DCACB9700EE812F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2DBFF51DCACB9700EE812F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2DBFFC1DCACB9700EE812F;
+			remoteInfo = MenstrualBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB41B0941DF6446A0060B0C1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB4F13641DF882A0001A9146 /* Realm.framework in Embed Frameworks */,
+				FB4F13621DF86F13001A9146 /* FSCalendar.framework in Embed Frameworks */,
+				FB4F13661DF882AE001A9146 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A05561DF75DF500BCF0EB /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB122B521DF7B71600D70CC7 /* QuadratTouch.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB122B371DF793A600D70CC7 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		FB122B381DF793A600D70CC7 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		FB122B421DF7977400D70CC7 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		FB122B441DF79B2F00D70CC7 /* PharmacyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacyAnnotation.swift; sourceTree = "<group>"; };
+		FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quadrat.xcodeproj; path = ../../Source/Quadrat.xcodeproj; sourceTree = "<group>"; };
+		FB1372211DF36509004AA2D7 /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		FB1372231DF37192004AA2D7 /* AddDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataTableViewController.swift; sourceTree = "<group>"; };
+		FB1372271DF3723B004AA2D7 /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = ../../../../../Downloads/HKTutorialFinalCode/HKTutorial/DatePickerCell.swift; sourceTree = "<group>"; };
+		FB1372291DF37E24004AA2D7 /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberCell.swift; path = ../../../../../Downloads/HKTutorialFinalCode/HKTutorial/NumberCell.swift; sourceTree = "<group>"; };
+		FB13722B1DF384B2004AA2D7 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		FB1887C91DE91DC9006BC237 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = ../MenuController.swift; sourceTree = "<group>"; };
+		FB1887CD1DE91EA7006BC237 /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
+		FB2DBFFD1DCACB9700EE812F /* Dash Period.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dash Period.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2DC0001DCACB9700EE812F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2DC0051DCACB9700EE812F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2DC0081DCACB9700EE812F /* MenstrualBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenstrualBuddy.xcdatamodel; sourceTree = "<group>"; };
+		FB2DC00D1DCACB9700EE812F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB2DC00F1DCACB9700EE812F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2DC0141DCACB9700EE812F /* MenstrualBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenstrualBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2DC0181DCACB9700EE812F /* MenstrualBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualBuddyTests.swift; sourceTree = "<group>"; };
+		FB2DC01A1DCACB9700EE812F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2DC01F1DCACB9700EE812F /* MenstrualBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenstrualBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2DC0231DCACB9700EE812F /* MenstrualBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualBuddyUITests.swift; sourceTree = "<group>"; };
+		FB2DC0251DCACB9800EE812F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2DC0311DCACBA300EE812F /* MenstrualBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenstrualBuddy.entitlements; sourceTree = "<group>"; };
+		FB2DC0331DCACBA300EE812F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		FB41B0901DF644630060B0C1 /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = Carthage/Build/iOS/FSCalendar.framework; sourceTree = "<group>"; };
+		FB4889851DE91C1600B1D146 /* MenstrualBuddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenstrualBuddy-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB4889861DE91C1700B1D146 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FB4889871DE91C1700B1D146 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FB4F13671DF888ED001A9146 /* AdditionalDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalDataViewController.swift; sourceTree = "<group>"; };
+		FB5A05591DF7905600BCF0EB /* MenstrualBuddyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenstrualBuddyAPI.swift; sourceTree = "<group>"; };
+		FB5EBCDF1DE924C000D6820D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FB5EBCED1DE93C4900D6820D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5EBCEF1DEA5C1400D6820D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB5EBCF11DEA5C9A00D6820D /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		FB5EBCF31DEA5CFD00D6820D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2DBFFA1DCACB9700EE812F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4F13601DF86F0D001A9146 /* FSCalendar.framework in Frameworks */,
+				FB4F13651DF882AE001A9146 /* RealmSwift.framework in Frameworks */,
+				FB5EBCE01DE924C000D6820D /* MapKit.framework in Frameworks */,
+				FB4F13611DF86F13001A9146 /* FSCalendar.framework in Frameworks */,
+				FB4F13631DF882A0001A9146 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC0111DCACB9700EE812F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC01C1DCACB9700EE812F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB122B481DF7B6E500D70CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB122B4D1DF7B6E500D70CC7 /* Quadrat.framework */,
+				FB122B4F1DF7B6E500D70CC7 /* QuadratTouch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1372201DF361B7004AA2D7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB5EBCF11DEA5C9A00D6820D /* CalendarViewController.swift */,
+				FB5EBCEF1DEA5C1400D6820D /* HomeViewController.swift */,
+				FB1887C91DE91DC9006BC237 /* MenuController.swift */,
+				FB1887CD1DE91EA7006BC237 /* PersonalDetailsViewController.swift */,
+				FB5EBCF31DEA5CFD00D6820D /* AboutViewController.swift */,
+				FB1372211DF36509004AA2D7 /* DataTableViewController.swift */,
+				FB1372231DF37192004AA2D7 /* AddDataTableViewController.swift */,
+				FB4F13671DF888ED001A9146 /* AdditionalDataViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FB1372261DF37218004AA2D7 /* AddDataGroup */ = {
+			isa = PBXGroup;
+			children = (
+				FB1372291DF37E24004AA2D7 /* NumberCell.swift */,
+				FB1372271DF3723B004AA2D7 /* DatePickerCell.swift */,
+			);
+			name = AddDataGroup;
+			sourceTree = "<group>";
+		};
+		FB297C651DE911D4005D6272 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB4889861DE91C1700B1D146 /* SWRevealViewController.h */,
+				FB4889871DE91C1700B1D146 /* SWRevealViewController.m */,
+				FB4889851DE91C1600B1D146 /* MenstrualBuddy-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		FB2DBFF41DCACB9700EE812F = {
+			isa = PBXGroup;
+			children = (
+				FB122B441DF79B2F00D70CC7 /* PharmacyAnnotation.swift */,
+				FB122B421DF7977400D70CC7 /* Venue.swift */,
+				FB5A05591DF7905600BCF0EB /* MenstrualBuddyAPI.swift */,
+				FB2DBFFF1DCACB9700EE812F /* MenstrualBuddy */,
+				FB2DC0171DCACB9700EE812F /* MenstrualBuddyTests */,
+				FB2DC0221DCACB9700EE812F /* MenstrualBuddyUITests */,
+				FB5A054A1DF75D8E00BCF0EB /* Third-Party */,
+				FB2DBFFE1DCACB9700EE812F /* Products */,
+				FB2DC0321DCACBA300EE812F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2DBFFE1DCACB9700EE812F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2DBFFD1DCACB9700EE812F /* Dash Period.app */,
+				FB2DC0141DCACB9700EE812F /* MenstrualBuddyTests.xctest */,
+				FB2DC01F1DCACB9700EE812F /* MenstrualBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2DBFFF1DCACB9700EE812F /* MenstrualBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FB297C651DE911D4005D6272 /* SWRevealViewController */,
+				FB2DC0311DCACBA300EE812F /* MenstrualBuddy.entitlements */,
+				FB1372261DF37218004AA2D7 /* AddDataGroup */,
+				FB2DC0001DCACB9700EE812F /* AppDelegate.swift */,
+				FB2DC0041DCACB9700EE812F /* Main.storyboard */,
+				FB1372201DF361B7004AA2D7 /* View Controllers */,
+				FB2DC00C1DCACB9700EE812F /* LaunchScreen.storyboard */,
+				FB13722B1DF384B2004AA2D7 /* HealthManager.swift */,
+				FB2DC00F1DCACB9700EE812F /* Info.plist */,
+				FB5EBCED1DE93C4900D6820D /* Assets.xcassets */,
+				FB2DC0071DCACB9700EE812F /* MenstrualBuddy.xcdatamodeld */,
+			);
+			path = MenstrualBuddy;
+			sourceTree = "<group>";
+		};
+		FB2DC0171DCACB9700EE812F /* MenstrualBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2DC0181DCACB9700EE812F /* MenstrualBuddyTests.swift */,
+				FB2DC01A1DCACB9700EE812F /* Info.plist */,
+			);
+			path = MenstrualBuddyTests;
+			sourceTree = "<group>";
+		};
+		FB2DC0221DCACB9700EE812F /* MenstrualBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2DC0231DCACB9700EE812F /* MenstrualBuddyUITests.swift */,
+				FB2DC0251DCACB9800EE812F /* Info.plist */,
+			);
+			path = MenstrualBuddyUITests;
+			sourceTree = "<group>";
+		};
+		FB2DC0321DCACBA300EE812F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB41B0901DF644630060B0C1 /* FSCalendar.framework */,
+				FB5EBCDF1DE924C000D6820D /* MapKit.framework */,
+				FB2DC0331DCACBA300EE812F /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB5A054A1DF75D8E00BCF0EB /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */,
+				FB122B371DF793A600D70CC7 /* Realm.framework */,
+				FB122B381DF793A600D70CC7 /* RealmSwift.framework */,
+			);
+			name = "Third-Party";
+			path = MenstrualBuddy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2DBFFC1DCACB9700EE812F /* MenstrualBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2DC0281DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddy" */;
+			buildPhases = (
+				FB2DBFF91DCACB9700EE812F /* Sources */,
+				FB2DBFFA1DCACB9700EE812F /* Frameworks */,
+				FB2DBFFB1DCACB9700EE812F /* Resources */,
+				FB41B0941DF6446A0060B0C1 /* Embed Frameworks */,
+				FB5A05561DF75DF500BCF0EB /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB122B511DF7B70D00D70CC7 /* PBXTargetDependency */,
+			);
+			name = MenstrualBuddy;
+			productName = MenstrualBuddy;
+			productReference = FB2DBFFD1DCACB9700EE812F /* Dash Period.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2DC0131DCACB9700EE812F /* MenstrualBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2DC02B1DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddyTests" */;
+			buildPhases = (
+				0085AAE95365629AA608EADF /* [CP] Check Pods Manifest.lock */,
+				FB2DC0101DCACB9700EE812F /* Sources */,
+				FB2DC0111DCACB9700EE812F /* Frameworks */,
+				FB2DC0121DCACB9700EE812F /* Resources */,
+				02D992790FF4039FA27274BA /* [CP] Embed Pods Frameworks */,
+				6647D8A4058CCB6D4E399E5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2DC0161DCACB9700EE812F /* PBXTargetDependency */,
+			);
+			name = MenstrualBuddyTests;
+			productName = MenstrualBuddyTests;
+			productReference = FB2DC0141DCACB9700EE812F /* MenstrualBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB2DC01E1DCACB9700EE812F /* MenstrualBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2DC02E1DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddyUITests" */;
+			buildPhases = (
+				4503AF37215123D927FF6707 /* [CP] Check Pods Manifest.lock */,
+				FB2DC01B1DCACB9700EE812F /* Sources */,
+				FB2DC01C1DCACB9700EE812F /* Frameworks */,
+				FB2DC01D1DCACB9700EE812F /* Resources */,
+				4772604FF973081BE7593CBE /* [CP] Embed Pods Frameworks */,
+				F9D3F19484B26E447BAB8EF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2DC0211DCACB9700EE812F /* PBXTargetDependency */,
+			);
+			name = MenstrualBuddyUITests;
+			productName = MenstrualBuddyUITests;
+			productReference = FB2DC01F1DCACB9700EE812F /* MenstrualBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2DBFF51DCACB9700EE812F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Shristi Hingle";
+				TargetAttributes = {
+					FB2DBFFC1DCACB9700EE812F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2MJ4Q6K499;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					FB2DC0131DCACB9700EE812F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EHSR99WEV8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2DBFFC1DCACB9700EE812F;
+					};
+					FB2DC01E1DCACB9700EE812F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EHSR99WEV8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2DBFFC1DCACB9700EE812F;
+					};
+				};
+			};
+			buildConfigurationList = FB2DBFF81DCACB9700EE812F /* Build configuration list for PBXProject "MenstrualBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2DBFF41DCACB9700EE812F;
+			productRefGroup = FB2DBFFE1DCACB9700EE812F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB122B481DF7B6E500D70CC7 /* Products */;
+					ProjectRef = FB122B471DF7B6E500D70CC7 /* Quadrat.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FB2DBFFC1DCACB9700EE812F /* MenstrualBuddy */,
+				FB2DC0131DCACB9700EE812F /* MenstrualBuddyTests */,
+				FB2DC01E1DCACB9700EE812F /* MenstrualBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB122B4D1DF7B6E500D70CC7 /* Quadrat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quadrat.framework;
+			remoteRef = FB122B4C1DF7B6E500D70CC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB122B4F1DF7B6E500D70CC7 /* QuadratTouch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = QuadratTouch.framework;
+			remoteRef = FB122B4E1DF7B6E500D70CC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2DBFFB1DCACB9700EE812F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2DC00E1DCACB9700EE812F /* LaunchScreen.storyboard in Resources */,
+				FB5EBCEE1DE93C4900D6820D /* Assets.xcassets in Resources */,
+				FB2DC0061DCACB9700EE812F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC0121DCACB9700EE812F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC01D1DCACB9700EE812F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0085AAE95365629AA608EADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		02D992790FF4039FA27274BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenstrualBuddyTests/Pods-MenstrualBuddyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4503AF37215123D927FF6707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4772604FF973081BE7593CBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenstrualBuddyUITests/Pods-MenstrualBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6647D8A4058CCB6D4E399E5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenstrualBuddyTests/Pods-MenstrualBuddyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D3F19484B26E447BAB8EF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenstrualBuddyUITests/Pods-MenstrualBuddyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2DBFF91DCACB9700EE812F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4F13681DF888ED001A9146 /* AdditionalDataViewController.swift in Sources */,
+				FB1372241DF37192004AA2D7 /* AddDataTableViewController.swift in Sources */,
+				FB1887CE1DE91EA7006BC237 /* PersonalDetailsViewController.swift in Sources */,
+				FB13722A1DF37E24004AA2D7 /* NumberCell.swift in Sources */,
+				FB1887CA1DE91DC9006BC237 /* MenuController.swift in Sources */,
+				FB5A055A1DF7905600BCF0EB /* MenstrualBuddyAPI.swift in Sources */,
+				FB1372281DF3723B004AA2D7 /* DatePickerCell.swift in Sources */,
+				FB122B451DF79B2F00D70CC7 /* PharmacyAnnotation.swift in Sources */,
+				FB4889881DE91C1700B1D146 /* SWRevealViewController.m in Sources */,
+				FB2DC0091DCACB9700EE812F /* MenstrualBuddy.xcdatamodeld in Sources */,
+				FB122B431DF7977400D70CC7 /* Venue.swift in Sources */,
+				FB2DC0011DCACB9700EE812F /* AppDelegate.swift in Sources */,
+				FB1372221DF36509004AA2D7 /* DataTableViewController.swift in Sources */,
+				FB5EBCF21DEA5C9A00D6820D /* CalendarViewController.swift in Sources */,
+				FB5EBCF41DEA5CFD00D6820D /* AboutViewController.swift in Sources */,
+				FB5EBCF01DEA5C1400D6820D /* HomeViewController.swift in Sources */,
+				FB13722C1DF384B2004AA2D7 /* HealthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC0101DCACB9700EE812F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2DC0191DCACB9700EE812F /* MenstrualBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DC01B1DCACB9700EE812F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2DC0241DCACB9800EE812F /* MenstrualBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB122B511DF7B70D00D70CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuadratTouch;
+			targetProxy = FB122B501DF7B70D00D70CC7 /* PBXContainerItemProxy */;
+		};
+		FB2DC0161DCACB9700EE812F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2DBFFC1DCACB9700EE812F /* MenstrualBuddy */;
+			targetProxy = FB2DC0151DCACB9700EE812F /* PBXContainerItemProxy */;
+		};
+		FB2DC0211DCACB9700EE812F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2DBFFC1DCACB9700EE812F /* MenstrualBuddy */;
+			targetProxy = FB2DC0201DCACB9700EE812F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2DC0041DCACB9700EE812F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2DC0051DCACB9700EE812F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2DC00C1DCACB9700EE812F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2DC00D1DCACB9700EE812F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2DC0261DCACB9800EE812F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2DC0271DCACB9800EE812F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2DC0291DCACB9800EE812F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MenstrualBuddy/MenstrualBuddy.entitlements;
+				DEVELOPMENT_TEAM = 2MJ4Q6K499;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MenstrualBuddy",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = MenstrualBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevens.MenstrualBuddy;
+				PRODUCT_NAME = "Dash Period";
+				SWIFT_OBJC_BRIDGING_HEADER = "MenstrualBuddy/MenstrualBuddy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB2DC02A1DCACB9800EE812F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MenstrualBuddy/MenstrualBuddy.entitlements;
+				DEVELOPMENT_TEAM = 2MJ4Q6K499;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MenstrualBuddy",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = MenstrualBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevens.MenstrualBuddy;
+				PRODUCT_NAME = "Dash Period";
+				SWIFT_OBJC_BRIDGING_HEADER = "MenstrualBuddy/MenstrualBuddy-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB2DC02C1DCACB9800EE812F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EHSR99WEV8;
+				INFOPLIST_FILE = MenstrualBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MenstrualBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenstrualBuddy.app/MenstrualBuddy";
+			};
+			name = Debug;
+		};
+		FB2DC02D1DCACB9800EE812F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EHSR99WEV8;
+				INFOPLIST_FILE = MenstrualBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MenstrualBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenstrualBuddy.app/MenstrualBuddy";
+			};
+			name = Release;
+		};
+		FB2DC02F1DCACB9800EE812F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EHSR99WEV8;
+				INFOPLIST_FILE = MenstrualBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MenstrualBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenstrualBuddy;
+			};
+			name = Debug;
+		};
+		FB2DC0301DCACB9800EE812F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EHSR99WEV8;
+				INFOPLIST_FILE = MenstrualBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.MenstrualBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenstrualBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2DBFF81DCACB9700EE812F /* Build configuration list for PBXProject "MenstrualBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2DC0261DCACB9800EE812F /* Debug */,
+				FB2DC0271DCACB9800EE812F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2DC0281DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2DC0291DCACB9800EE812F /* Debug */,
+				FB2DC02A1DCACB9800EE812F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2DC02B1DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2DC02C1DCACB9800EE812F /* Debug */,
+				FB2DC02D1DCACB9800EE812F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2DC02E1DCACB9800EE812F /* Build configuration list for PBXNativeTarget "MenstrualBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2DC02F1DCACB9800EE812F /* Debug */,
+				FB2DC0301DCACB9800EE812F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB2DC0071DCACB9700EE812F /* MenstrualBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB2DC0081DCACB9700EE812F /* MenstrualBuddy.xcdatamodel */,
+			);
+			currentVersion = FB2DC0081DCACB9700EE812F /* MenstrualBuddy.xcdatamodel */;
+			path = MenstrualBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB2DBFF51DCACB9700EE812F /* Project object */;
+}
